@@ -63,3 +63,8 @@ body {
   gap: 4rem;
   list-style-type: none;
 }
+
+/* adding color to all the link tag of MENU */
+.list li a {
+  color: var(--dark-black-color);
+}
