@@ -99,3 +99,28 @@ body {
   padding: 1rem 2rem 1rem 2rem;
   border-radius: 1rem;
 }
+/* styling Left Div with image */
+.divWithImage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+/* alining all the img of left */
+.divWithImage :first-child {
+  width: 20rem;
+  margin: 5rem 0rem 2rem 1rem;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.divWithImage :nth-child(2) {
+  width: 22rem;
+  margin: 0rem 0rem 2rem 0rem;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.divWithImage :last-child {
+  width: 45rem;
+  height: 20rem;
+  grid-area: 2 / 1 / 3 / 3;
+}
