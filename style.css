@@ -76,3 +76,10 @@ body {
   align-items: flex-start;
   gap: 2rem;
 }
+/* styling the Hedline */
+.divWithText h2 {
+  font-family: var(--font-family);
+  font-size: 4rem;
+  font-weight: 800;
+  width: 70%;
+}
