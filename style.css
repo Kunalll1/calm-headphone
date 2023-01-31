@@ -68,3 +68,11 @@ body {
 .list li a {
   color: var(--dark-black-color);
 }
+/* sttyling the conter left with Hedling and Button */
+.divWithText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
